@@ -1,0 +1,73 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Virtual Environments
+
+venv/
+env/
+ENV/
+
+# IDE
+
+.vscode/
+.idea/
+
+# Logs
+
+*.log
+
+# Build
+
+build/
+dist/
+*.egg-info/
+
+# Dataset backups
+
+*.bak
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# TensorFlow
+
+logs/
+checkpoints/
+
+# Model outputs
+
+models/
+saved_models/
+
+# Temporary files
+
+temp/
+tmp/
+
+# Pytest
+
+.pytest_cache/
+
+# Coverage
+
+.coverage
+htmlcov/
+
+# Kubernetes
+
+*.kubeconfig
+
+# Secrets
+
+*.key
+*.pem
+.env
