@@ -101,14 +101,12 @@ The proposed framework consistently outperforms the EdgeDQN baseline across all 
 ```text
 LSTM-GNN-SFC-Placement/
 │
-├── dataset/
-├── docs/
-├── results/
-├── resource_prediction/
-├── topology_learning/
-├── optimization/
-├── deployment/
+├── dataset/         # Dataset and documentation
+├── docs/            # Project documentation and paper
+├── results/         # Experimental results and graphs
+├── src/             # Complete LSTM-GNN-ILP implementation
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
 
