@@ -11,7 +11,7 @@ The dataset captures node-level resource utilization and network performance met
 ## Dataset File
 
 ```text
-cluster_metrics.csv
+cluster_metrics.zip
 ```
 
 ---
