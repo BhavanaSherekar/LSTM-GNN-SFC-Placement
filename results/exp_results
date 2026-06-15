@@ -1,0 +1,89 @@
+# Experimental Results
+
+## Overview
+
+This directory contains the experimental results obtained from evaluating the proposed LSTM--GNN--ILP Service Function Chain (SFC) placement framework in a Kubernetes-based edge-cloud environment.
+
+The proposed framework is compared against the EdgeDQN baseline under multiple traffic conditions.
+
+---
+
+## Evaluation Metrics
+
+The following performance metrics were analyzed:
+
+### 1. Latency
+
+Measures the end-to-end delay experienced by packets traversing the Service Function Chain.
+
+Lower values indicate better performance.
+
+---
+
+### 2. Throughput
+
+Measures the amount of successfully processed traffic per unit time.
+
+Higher values indicate better performance.
+
+---
+
+### 3. CPU Utilization
+
+Measures processor usage across worker nodes during SFC execution.
+
+Lower utilization indicates more balanced resource allocation.
+
+---
+
+### 4. Memory Utilization
+
+Measures memory consumption during VNF deployment and execution.
+
+Lower utilization indicates improved resource efficiency.
+
+---
+
+### 5. Jitter
+
+Measures variations in packet delay.
+
+Lower jitter indicates more stable network performance and improved QoS.
+
+---
+
+### 6. Placement Cost
+
+Represents the optimization objective value computed from:
+
+* CPU utilization
+* Memory utilization
+* RTT
+* Topology-aware node score
+
+Lower placement cost indicates more efficient placement decisions.
+
+---
+
+## Traffic Scenarios
+
+Experiments were conducted under:
+
+* Low Traffic Conditions
+* Medium Traffic Conditions
+* High Traffic Conditions
+
+---
+
+## Key Findings
+
+The proposed LSTM--GNN--ILP framework consistently achieves:
+
+* Lower latency
+* Higher throughput
+* Reduced CPU utilization
+* Reduced memory utilization
+* Lower jitter
+* Lower placement cost
+
+compared to the EdgeDQN baseline.
