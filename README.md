@@ -62,7 +62,7 @@ The framework consists of the following components:
 The repository includes a custom dataset:
 
 ```text
-dataset/cluster_metrics.csv
+dataset/cluster_metrics.zip
 ```
 
 The dataset contains:
